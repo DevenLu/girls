@@ -1,0 +1,31 @@
+{
+  "name": "girls",
+  "description": "😻 偷取全球顶级尤物，全是微胖属性，一起领略肥美人生.",
+  "license": "MIT",
+  "scripts": {
+    "app:dev": "pnpm dev --filter @girls/app",
+    "app:build": "pnpm build --filter @girls/app",
+    "server:dev": "pnpm dev --filter @girls/server",
+    "server:build": "pnpm build --filter @girls/server",
+    "preinstall": "npx only-allow pnpm",
+    "analysis": "windicss-analysis"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,json,html}": [
+      "prettier --write"
+    ],
+    "package.json": "pnpx sort-package-json"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "12.1.1",
+    "@commitlint/config-conventional": "12.1.1",
+    "@typescript-eslint/eslint-plugin": "4.22.0",
+    "@typescript-eslint/parser": "4.22.0",
+    "eslint": "7.25.0",
+    "eslint-config-prettier": "8.3.0",
+    "husky": "6.0.0",
+    "lint-staged": "10.5.4",
+    "prettier": "2.2.1",
+    "sort-package-json": "1.49.0"
+  }
+}
