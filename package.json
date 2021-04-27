@@ -7,7 +7,6 @@
     "app:build": "pnpm build --filter @girls/app",
     "server:dev": "pnpm dev --filter @girls/server",
     "server:build": "pnpm build --filter @girls/server",
-    "preinstall": "npx only-allow pnpm",
     "analysis": "windicss-analysis"
   },
   "lint-staged": {
