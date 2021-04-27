@@ -15,7 +15,7 @@
     "vite": "2.2.3",
     "vite-plugin-solid": "1.6.1",
     "vite-plugin-windicss": "0.15.7",
-    "vite-tsconfig-paths": "3.3.9",
+    "vite-tsconfig-paths": "3.3.10",
     "windicss-analysis": "0.2.0"
   }
 }
